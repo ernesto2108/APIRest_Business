@@ -1,0 +1,12 @@
+{
+  "database": {
+    "PostgresSql": {
+      "Host": "localhost",
+      "Port": "5432",
+      "DbName": "business",
+      "User": "Postgres",
+      "Pass": "Root",
+      "Sslmode": "disable"
+    }
+  }
+}

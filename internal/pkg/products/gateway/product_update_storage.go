@@ -1,0 +1,4 @@
+package products
+
+func update() {
+}

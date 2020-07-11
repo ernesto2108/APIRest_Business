@@ -1,0 +1,4 @@
+package categories
+
+func delete() {
+}
