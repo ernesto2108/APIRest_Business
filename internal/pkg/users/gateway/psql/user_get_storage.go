@@ -1,4 +1,0 @@
-package psql
-
-func get()  {
-}

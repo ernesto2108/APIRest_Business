@@ -14,7 +14,6 @@ func NewServer() *MyServer {
 
 	s := &http2.Server{
 		MaxConcurrentStreams: 250,
-		//MaxHandlers:          r,
 		MaxReadFrameSize:     1048576,
 		IdleTimeout:          10 * time.Second,
 	}

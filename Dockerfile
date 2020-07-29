@@ -6,4 +6,4 @@ WORKDIR /app
 
 RUN make build
 EXPOSE 9000
-CMD["/cmd/main"]
+CMD["api/cmd/main"]

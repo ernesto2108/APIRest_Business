@@ -1,16 +1,9 @@
-package psql
+package users
 
-func Create()  {
-}
+import (
+	entities "github.com/ernesto2108/APIRest_Business/internal/pkg/users/domain"
+)
 
-func Get()  {
-}
-
-func GetId()  {
-}
-
-func Update()  {
-}
-
-func Delete()  {
+func (us UserServices) Create(u *entities.UserCreate) (*entities.User, error) {
+	return nil, nil
 }

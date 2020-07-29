@@ -2,10 +2,9 @@ package internal
 
 type ReplyApi struct {
 	success bool
-	status  int
-	Result  interface{}
+	message string
+	data    interface{}
 }
 
 func Success() {
-
 }
